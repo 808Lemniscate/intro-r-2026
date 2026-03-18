@@ -1,0 +1,24 @@
+---
+title: "R training"
+format: html
+author: "Sarah Goforth"
+date: 2026-03-18
+editor: visual
+---
+I am learning R! I don't need to add a # when it's not in a code "chunk"
+```{r}
+#notes for coders
+```
+
+
+
+```{r}
+3
+4
+typeof(8.5)
+```
+```
+```{r}
+
+```
+
