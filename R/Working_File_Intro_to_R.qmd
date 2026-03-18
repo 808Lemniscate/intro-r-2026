@@ -5,20 +5,43 @@ author: "Sarah Goforth"
 date: 2026-03-18
 editor: visual
 ---
-I am learning R! I don't need to add a # when it's not in a code "chunk"
+
+I am learning R! I don't need to add a \# when it's not in a code "chunk"
+
+
+```{r}
+source("training_source.R")
+
+```
+
 ```{r}
 #notes for coders
 ```
-
-
 
 ```{r}
 3
 4
 typeof(8.5)
 ```
-```
-```{r}
 
+```{r}
+"text strings are fun!"
+typeof("strings")
+
+```
+
+```{r}
+a <- c(1,2,3)
+a
+
+c("a", "b", "c")
+c(TRUE, FALSE)
+c(1, "two", 3)
+
+```
+
+```{r}
+csv_path <- "../data/raw/presurvey_20260317.csv"
+survey_raw <- rio::import(csv_path)
 ```
 
